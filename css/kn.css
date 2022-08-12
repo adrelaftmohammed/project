@@ -1,0 +1,159 @@
+
+*{
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+body{
+height: 1000px;
+}
+header{
+background-color: #f6f6f6;
+width: 100%;
+height: 7%;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-around;
+line-height: 70px;
+}
+
+ul li{
+margin-left: 35px;
+display: inline-block;
+
+}
+ul li a{
+color: black;
+font-size: 18px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+transition: 0.5s;
+}
+ul li a:hover{
+color:blue;
+}
+header #m{
+color: black;
+font-weight: bold;
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#v{
+color: orange;
+}
+#po{
+    background-image: url(../img/pic4.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+}
+.d h1 ,h2, #opp{
+   position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+#opp{
+margin-top: 130px;
+width: 105px;
+height:45px;
+color: white;
+background-color: orangered;
+border:none;
+font-size: 18px;
+transition: 0.5s;
+}
+#opp:hover{
+background-color: red;
+}
+.d h2{
+margin-top: 60px;
+margin-bottom: 25px;
+font-size: 40px;
+font-weight: bold;
+}
+.d h1{
+    font-size: 40px;
+    color: rgb(66, 65, 65);
+}
+.db{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+.fa-app-store,.fa-apple-whole,.fa-artstation{
+margin-left: 30px;
+font-size: 40px;
+border-radius: 50%;
+border: 2px solid black;
+padding: 15px;
+}
+.dd h3,p{
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.dd{
+text-align: center;
+}
+#ff{
+background-color: #ddd;
+width: 100%;
+height: 30%;
+margin-top: 50px;
+}
+.du img{
+width: 250px;
+height: 220px;
+margin-left: 25px;
+}
+.dgg{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.dg{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.du{
+margin-left:50px ;
+}
+#uu{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.8s;
+}
+#uu:hover{
+background-color: blue;
+}
+.du h5{
+margin-bottom: 20px;
+font-size: 18px;
+border-bottom: 1px solid black;
+padding-bottom: 15px;
+}
+.du h6{
+    font-size: 18px;  
+}
+.dg{
+border: 1px solid silver;
+border-radius: 25px;
+margin-left: 20px;
+box-shadow: 1px 1px 2px 1px;
+}
+.dgg{
+padding-top:50px;
+}
+span{
+font-size: 50px;
+}
+     
